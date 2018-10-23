@@ -1,153 +1,305 @@
+
+
 <!DOCTYPE html>
 <html>
-<title>SemanGit Homepage</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
-</style>
-<body>
+	<title>SemanGit Homepage</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<style>
+		body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+		body {font-size:16px;}
+		.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+		.w3-half img:hover{opacity:1}
+	</style>
+	<body>
+		<!-- Sidebar/menu -->
+		<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
+			<br>
+			<a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+			<div class="w3-container">
+				<h3 class="w3-padding-64">
+					<b>
+						SemanGit
+						<hr>
+						A Semantic Layer on top of the git-Protocol
+					</b>
+				</h3>
+			</div>
+			<div class="w3-bar-block">
+				<a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+				<a href="#news" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">News</a> 
+				<a href="#downloads" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Downloads</a> 
+				<a href="#onthology" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Onthology</a> 
+				<a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Publications</a> 
+				<a href="#license" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">License</a> 
+				<a href="#archive" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Archive</a> 
+				<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+			</div>
+		</nav>
+		<!-- Top menu on small screens -->
+		<header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
+			<a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
+			<span>SemanGit</small></span>
+		</header>
+		<!-- Overlay effect when opening sidebar on small screens -->
+		<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+		<!-- !PAGE CONTENT! -->
+		<div class="w3-main" style="margin-left:340px;margin-right:40px">
+			<!-- Body -->
+			<!-- Intro -->
+			<div class="w3-container" style="margin-top:80px" id="showcase">
+				<h1 class="w3-jumbo">
+					<b>
+						SemanGit 
+						<hr>
+						<h4>A Semantic Layer on top of the git-Protocol</h4>
+					</b>
+				</h1>
+				The SemanGit project provides onthology for a semantic representation of the git-protocol and its derviates (Github, Bitbucket etc.) and cummultative turtle-datasets of all publicly accessible data on Github. For a brief introduction on used technologies, ideas and optimization techniques please consider <a href=""> this project report </a>. Technical documentation on the scripts can be obtained from <a href=""> Github Project Page </a>. A short introduction to the Onthology can be found under the heading <a href=""> Onthology </a>. For the more detailed version please refer to <a href=""> XXX </a>
+			</div>
+			<!-- News -->
+			<div class="w3-container" id="news" style="margin-top:75px">
+				<h1 class="w3-xxxlarge w3-text-green"><b>News</b></h1>
+				<hr style="width:50px;border:5px solid green" class="w3-round">
+				<ul class="w3-ul">
+					<li class="w3">- Updated license for the Dataset (23th Oct 2018)</li>
+					<li class="w3">- We have started on setting up the file server. Soon we can provide the processed ttl-datasets as downloads (23th Oct 2018)</li>
+					<li class="w3">- Improved robustness of data generation scripts (22th Oct 2018)</li>
+				</ul>
+			</div>
+			<!-- Downloads -->
+			<div class="w3-container" id="downloads" style="margin-top:75px">
+				<h1 class="w3-xxxlarge w3-text-green"><b>Downloads.</b></h1>
+				<hr style="width:50px;border:5px solid green" class="w3-round">
+				<p>You can download either a cummultative dump from the last 3 months or the SemanGit Scripts for the generation of a single or multiple dumps. If you need the data of an older dump like 2016-03-01, please download one of the scripts and compute it manually.</p>
+			</div>
+			<div class="w3-row-padding">
+				<div class="w3-half w3-margin-bottom">
+					<ul class="w3-ul w3-light-grey w3-center">
+						<li class="w3-dark-grey w3-xlarge w3-padding-32">Dumps</li>
+						<li class="w3-padding-16">Dec. 2018 (tba)</li>
+						<li class="w3-padding-16">Nov. 2018 (tba)</li>
+						<li class="w3-padding-16">Oct. 2018 (tba)</li>
+					</ul>
+				</div>
+				<div class="w3-half">
+					<ul class="w3-ul w3-light-grey w3-center">
+						<li class="w3-green w3-xlarge w3-padding-32">Scripts</li>
+						<li class="w3-padding-16">Single Dump Downloader</li>
+						<li class="w3-padding-16">All Dump Downloader</li>
+						<li class="w3-padding-16">Server Deamon</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Onthology -->
+			<div class="w3-container" id="onthology" style="margin-top:75px">
+				<h1 class="w3-xxxlarge w3-text-green"><b>Onthology</b></h1>
+				<hr style="width:50px;border:5px solid green" class="w3-round">
+				<p> As a first step, we have created
+an ontology for Git and extended it to also take the social features of GitHub
+into account. An interactive visualization of our ontology can be found on <a href="http://visualdataweb.de/webvowl_editor/#iri=https://raw.githubusercontent.com/SemanGit/SemanGit/master/Documentation/ontology/semangitontology.ttl"> WebVOWL </a>. Due to limitations of type setting the underlying onthology is not entirely correclty typed. A full version can be obtained from <a href=""> XXX </a>.  </p>
+<hr>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
-    <h3 class="w3-padding-64"><b>SemanGit<br>A Semantic Layer on top of the git-Protocol</b></h3>
-  </div>
-  <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">News</a> 
-    <a href="#downloads" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Downloads</a> 
-    <a href="#onthology" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Onthology</a> 
-    <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Publications</a> 
-    <a href="#license" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">License</a> 
-    <a href="#changelog" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Changelog</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
-  </div>
-</nav>
+<object type="text/html" width="100%" height="600px" data="http://visualdataweb.de/webvowl_editor/#iri=https://raw.githubusercontent.com/SemanGit/SemanGit/master/Documentation/ontology/semangitontology.ttl">
+</object>
+(Note: To display everything choose: <b>Filter > Degree of Collapsing > 0 </b> )
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
-  <span>SemanGit - <small> A Semantic Layer on top of the git-Protocol</small></span>
-</header>
+<hr>
+<p>Due to the fact that we grab all our data from <a href="http://www.ghtorrent.org"> GHTorrent </a> , we have decided
+to take their structure into account when developing our ontology. All relevant information provided by them
+has been included in our structure, too. 
+We have ensured to clearly distinguish between Git properties and properties
+that do not belong to the Git protocol, but which are provided by GitHub. In
+this case, we have created a subclass that can hold all the additional information
+and make the basic Git class superclass of it. As an example, a "Git user"
+only consists of an email address. That is to say, when creating a commit, one
+can specify the author of the commit by providing an email address.
+A GitHub user on the other hand is a lot more complex. It has a nickname,
+avatar, a creation date, a location etc. So in our ontology, there is a class called
+User which only has the user email data field, and a github user subclass that
+has 9 more fields, including those mentioned above.
+On GitHub, users can leave comments on commits, pull requests and on reported
+issues. Seeing that those are very similar, we have grouped those three
+classes as commentable, such that a comment can be made for any class that
+is subclass of commentable.
+Our ontology comprises of 22 classes and 80 properties. During the creation
+process, we used the <a href="http://vowl.visualdataweb.org/webvowl.html"> WebVOWL editor tool </a>  for building the ontology and
+the <a href="http://oops.linkeddata.es/"> OOPS! OntOlogy Pitfall Scanner! </a>  for checking the integrity of it. </p>
+				
+			</div>
+			<!-- Publications -->
+			<div class="w3-container" id="publications" style="margin-top:75px">
+				<h1 class="w3-xxxlarge w3-text-green"><b>Publications</b></h1>
+				<hr style="width:50px;border:5px solid green" class="w3-round">
+				<ul class="w3-ul">
+					<li class="w3">- Censored version of the original <a href="https://github.com/SemanGit/SemanGit/blob/master/Documentation/publications/SemanGit__Adding_a_semantic_layer_to_the_Git_protocol.pdf">Project Report</a></li>
+			</div>
+			<!-- License -->
+			<div class="w3-container" id="license" style="margin-top:75px">
+				<h1 class="w3-xxxlarge w3-text-green"><b>Licenses</b></h1>
+				<hr style="width:50px;border:5px solid green" class="w3-round">
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+				<div class="w3-row-padding w3-grayscale">
+<div class="w3-col m4 w3-margin-bottom">
+					<div class="w3-light-grey">
+						<div class="w3-container">
+							<h3>Programms/Scripts</h3>
+							<p>Copyright (c) 2018 Matthias Böckmann, Dennis Kubitza <br>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions: <br><br>
 
-  <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>SemanGit</b></h1>
-    <h1 class="w3-xxxlarge w3-text-green"><b>News</b></h1>
-    <hr style="width:50px;border:5px solid green" class="w3-round">
-  </div>
- 
-  <!-- Downloads -->
-  <div class="w3-container" id="downloads" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-green"><b>Downloads.</b></h1>
-    <hr style="width:50px;border:5px solid green" class="w3-round">
-    <p>You can download either a cummultative dump from the last 3 months or the SemanGit Scripts for the generation of a single or multiple dumps. If you need the data of an older dump like 2016-03-01, please download one of the scripts and compute it manually.</p>
-  </div>
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software. <br><br>
 
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Dumps</li>
-        <li class="w3-padding-16">Dec. 2018</li>
-        <li class="w3-padding-16">Nov. 2018</li>
-        <li class="w3-padding-16">Oct. 2018</li>
-      </ul>
-    </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-green w3-xlarge w3-padding-32">Scripts</li>
-	<li class="w3-padding-16">Single Dump Downloader</li>
-        <li class="w3-padding-16">All Dump Downloader</li>
-        <li class="w3-padding-16">Server Deamon</li>
-      </ul>
-    </div>
-  </div>
-  
-  <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-green"><b>Contact</b></h1>
-    <hr style="width:50px;border:5px solid green" class="w3-round">
-    <p>The SemanGit Team:</p>
-  </div>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</p>
+						</div>
+					</div>
+				</div>
 
-  <!-- Contact -->
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team2.jpg" alt="Damian Graux" style="width:100%">
-        <div class="w3-container">
-          <h3>Damian Graux</h3>
-          <p class="w3-opacity">Evil Wizzard</p>
-          <p class="w3-opacity">Expert for talking Spiders</p>
-          <p></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team1.jpg" alt="Matthias Boeckmann" style="width:100%">
-        <div class="w3-container">
-          <h3>Matthias Boeckmann</h3>
-          <p class="w3-opacity">Coffee Cup Minion</p>
-          <p class="w3-opacity">Tamer of Reptiles</p>
-          <p></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team3.jpg" alt="Dennis Kubitza" style="width:100%">
-        <div class="w3-container">
-          <h3>Dennis Kubitza</h3>
-          <p class="w3-opacity">Party Minion</p>
-          <p class="w3-opacity">Interpreter for Pirates</p>
-          <p></p>
+				<div class="w3-col m4 w3-margin-bottom">
+					<div class="w3-light-grey">
+						<div class="w3-container">
+							<h3>Datasets</h3>
+							<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> in accordance with <a href="http://ghtorrent.org/faq.html"> The GHtorrent project </a></p><hr>
+<p> We thank Georgios Gousios for proving the ghtorrent - Dataset.
+ <li>
+    
+<a class="url" href="http://www.gousios.gr/bibliography/G13.html"><span class="title">The GHTorrent dataset and tool suite</span></a><br>
+    <span class="author">Gousios, Georgios</span><br>
+    <span class="booktitle">Proceedings of the 10th Working Conference on Mining Software Repositories</span>
+    
+    <span class="">
+      p. <span class="pages">233--236</span>.
+    </span>
+    <span class="">
+    <span class="year">2013</span></span>
+    <br>
+    <a class="bibtexCodeLink" bibtexcode="@inproceedings{G13,
+  author = {Gousios, Georgios},
+  title = {The {GHT}orrent dataset and tool suite},
+  year = {2013},
+  month = may,
+  pages = {233--236},
+  numpages = {4},
+  booktitle = {Proceedings of the 10th Working Conference on Mining Software Repositories},
+  series = {MSR '13},
+  isbn = {978-1-4673-2936-1},
+  location = {San Francisco, CA, USA},
+  url = {/pub/ghtorrent-dataset-toolsuite.pdf},
+  github = {gousiosg/github-mirror},
+  speakerdeck = {75bea5909fbb0130f0eb364613f6f036},
+  award = {MSR2013: Best data showcase paper},
+  note = {Best data showcase paper award}
+}">
+	    [bibtex]
+    </a>
+    <br><br>
+  </li>
+</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="w3-col m4 w3-margin-bottom">
+					<div class="w3-light-grey">
+						<div class="w3-container">
+							<h3>Anything Else</h3>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-        </div>
-      </div>
-    </div>
-  </div>
+			<!-- Archive -->
+			<div class="w3-container" id="archive" style="margin-top:75px">
+				<h1 class="w3-xxxlarge w3-text-green"><b>Archive</b></h1>
+				<hr style="width:50px;border:5px solid green" class="w3-round">
+				<ul class="w3-ul">
+					<li class="w3"></li>
+				</ul>
+			</div
 
-<!-- End page content -->
-</div>
+			<!-- Contact -->
+			<div class="w3-container" id="contact" style="margin-top:75px">
+				<h1 class="w3-xxxlarge w3-text-green"><b>Contact</b></h1>
+				<hr style="width:50px;border:5px solid green" class="w3-round">
+				<p>The SemanGit Team:</p>
+			</div>
 
-<!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powegreen by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
-
-</body>
+			<div class="w3-row-padding w3-grayscale">
+				<div class="w3-col m4 w3-margin-bottom">
+					<div class="w3-light-grey">
+						<img src="/w3images/team2.jpg" alt="Damian Graux" style="width:100%">
+						<div class="w3-container">
+							<h3>Damian Graux</h3>
+							<p class="w3-opacity">Evil Wizzard</p>
+							<p class="w3-opacity">Expert for talking Spiders</p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<div class="w3-col m4 w3-margin-bottom">
+					<div class="w3-light-grey">
+						<img src="/w3images/team1.jpg" alt="Matthias Boeckmann" style="width:100%">
+						<div class="w3-container">
+							<h3>Matthias Boeckmann</h3>
+							<p class="w3-opacity">Coffee Cup Minion</p>
+							<p class="w3-opacity">Tamer of Reptiles</p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<div class="w3-col m4 w3-margin-bottom">
+					<div class="w3-light-grey">
+						<img src="/w3images/team3.jpg" alt="Dennis Kubitza" style="width:100%">
+						<div class="w3-container">
+							<h3>Dennis Kubitza</h3>
+							<p class="w3-opacity">Party Minion</p>
+							<p class="w3-opacity">Interpreter for Pirates</p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End page content -->
+		</div>
+		<!-- W3.CSS Container -->
+		<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+			<p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p>
+		</div>
+		<script>
+			// Script to open and close sidebar
+			function w3_open() {
+			    document.getElementById("mySidebar").style.display = "block";
+			    document.getElementById("myOverlay").style.display = "block";
+			}
+			 
+			function w3_close() {
+			    document.getElementById("mySidebar").style.display = "none";
+			    document.getElementById("myOverlay").style.display = "none";
+			}
+			
+			// Modal Image Gallery
+			function onClick(element) {
+			  document.getElementById("img01").src = element.src;
+			  document.getElementById("modal01").style.display = "block";
+			  var captionText = document.getElementById("caption");
+			  captionText.innerHTML = element.alt;
+			}
+		</script>
+	</body>
 </html>
+
+
