@@ -57,39 +57,38 @@
 						<h4>A Semantic Layer on top of the git-Protocol</h4>
 					</b>
 				</h1>
-				The SemanGit project provides onthology for a semantic representation of the git-protocol and its derviates (Github, Bitbucket etc.) and cummultative turtle-datasets of all publicly accessible data on Github. For a brief introduction on used technologies, ideas and optimization techniques please consider <a href=""> this project report </a>. Technical documentation on the scripts can be obtained from <a href=""> Github Project Page </a>. A short introduction to the Onthology can be found under the heading <a href=""> Onthology </a>. For the more detailed version please refer to <a href=""> XXX </a>
+				The SemanGit project provides onthology for a semantic representation of the git-protocol and its derviates (Github, Bitbucket etc.) and cummultative turtle-datasets of all publicly accessible data on Github. For a brief introduction on used technologies, ideas and optimization techniques please consider <a href="https://github.com/SemanGit/SemanGit/blob/master/Documentation/publications/SemanGit__Adding_a_semantic_layer_to_the_Git_protocol.pdf">  this project report </a>. Technical documentation on the scripts can be obtained from <a href="https://github.com/SemanGit/SemanGit"> Github Project Page </a>. A short introduction to the Onthology can be found under the heading <a href="#onthology"> Onthology </a>. Our first official realese of the dataset will be published soon <a href=""> (TBA) </a>
 			</div>
 			<!-- News -->
 			<div class="w3-container" id="news" style="margin-top:75px">
 				<h1 class="w3-xxxlarge w3-text-green"><b>News</b></h1>
 				<hr style="width:50px;border:5px solid green" class="w3-round">
 				<ul class="w3-ul">
-					<li class="w3">- Updated license for the Dataset (23th Oct 2018)</li>
-					<li class="w3">- We have started on setting up the file server. Soon we can provide the processed ttl-datasets as downloads (23th Oct 2018)</li>
-					<li class="w3">- Improved robustness of data generation scripts (22th Oct 2018)</li>
+					<li class="w3">- Moved Website from semangit.github.io to semangit.de (22nd Nov 2018)</li>
+					<li class="w3">- Provide Download Scripts (5th Nov 2018)</li>
+					<li class="w3">- Deployed new robust converter in Github (1st Nov 2018)</li>
 				</ul>
 			</div>
 			<!-- Downloads -->
 			<div class="w3-container" id="downloads" style="margin-top:75px">
 				<h1 class="w3-xxxlarge w3-text-green"><b>Downloads.</b></h1>
 				<hr style="width:50px;border:5px solid green" class="w3-round">
-				<p>You can download either a cummultative dump from the last 3 months or the SemanGit Scripts for the generation of a single or multiple dumps. If you need the data of an older dump like 2016-03-01, please download one of the scripts and compute it manually.</p>
+				<p>You can download either a cummultative dump from the recent months or the SemanGit Scripts for the generation of a single or multiple dumps. If you need the data of an older dump like 2016-03-01, please download the linux script and compute it manually.</p>
 			</div>
 			<div class="w3-row-padding">
 				<div class="w3-half w3-margin-bottom">
 					<ul class="w3-ul w3-light-grey w3-center">
-						<li class="w3-dark-grey w3-xlarge w3-padding-32">Dumps</li>
-						<li class="w3-padding-16">Dec. 2018 (tba)</li>
-						<li class="w3-padding-16">Nov. 2018 (tba)</li>
-						<li class="w3-padding-16">Oct. 2018 (tba)</li>
+						<li class="w3-dark-grey w3-xlarge w3-padding-32"><h2>Dumps</h2></li>
+						<li class="w3-padding-16"><a href="">Dec. 2018 (.ttl)</a></li>
+						<li class="w3-padding-16"><a href="">Nov. 2018 (.ttl)</a></li>
+						<li class="w3-padding-16"><a href="">Oct. 2018 (.ttl)</a></li>
 					</ul>
 				</div>
 				<div class="w3-half">
 					<ul class="w3-ul w3-light-grey w3-center">
-						<li class="w3-green w3-xlarge w3-padding-32">Scripts</li>
-						<li class="w3-padding-16">Single Dump Downloader</li>
-						<li class="w3-padding-16">All Dump Downloader</li>
-						<li class="w3-padding-16">Server Deamon</li>
+						<li class="w3-green w3-xlarge w3-padding-32"><h2>Scripts and Instructions</h2></li>
+						<li class="w3-padding-16"><h3><a href="https://github.com/SemanGit/LinuxDownloader/archive/7847b2bbb6ab87331c597581270fec0457e3147d.zip">Linux Download Script</a></h3><hr> A short script which automatically downloads and transforms the data to rdf. Compatible with all common Linux distributions</li>
+						<li class="w3-padding-16"><h3><a href=""> Windows/Mac Instructions</a></h3><hr> Instructions on the manual processing steps required to generate the SemanGit RDF</li>
 					</ul>
 				</div>
 			</div>
@@ -99,7 +98,7 @@
 				<hr style="width:50px;border:5px solid green" class="w3-round">
 				<p> As a first step, we have created
 an ontology for Git and extended it to also take the social features of GitHub
-into account. An interactive visualization of our ontology can be found on <a href="http://visualdataweb.de/webvowl_editor/#iri=https://raw.githubusercontent.com/SemanGit/SemanGit/master/Documentation/ontology/semangitontology.ttl"> WebVOWL </a>. Due to limitations of type setting the underlying onthology is not entirely correclty typed. A full version can be obtained from <a href=""> XXX </a>.  </p>
+into account. An interactive visualization of our ontology can be found on <a href="http://visualdataweb.de/webvowl_editor/#iri=https://raw.githubusercontent.com/SemanGit/SemanGit/master/Documentation/ontology/semangitontology.ttl"> WebVOWL </a>. Due to limitations of type setting the underlying onthology is not entirely correclty typed. A full and correct version can be obtained from <a href="https://github.com/SemanGit/SemanGit/blob/master/Documentation/ontology/semangitontology.ttl">GitHub</a>.  </p>
 <hr>
 
 <object type="text/html" width="100%" height="600px" data="http://visualdataweb.de/webvowl_editor/#iri=https://raw.githubusercontent.com/SemanGit/SemanGit/master/Documentation/ontology/semangitontology.ttl">
@@ -134,7 +133,7 @@ the <a href="http://oops.linkeddata.es/"> OOPS! OntOlogy Pitfall Scanner! </a>  
 				<h1 class="w3-xxxlarge w3-text-green"><b>Publications</b></h1>
 				<hr style="width:50px;border:5px solid green" class="w3-round">
 				<ul class="w3-ul">
-					<li class="w3">- Censored version of the original <a href="https://github.com/SemanGit/SemanGit/blob/master/Documentation/publications/SemanGit__Adding_a_semantic_layer_to_the_Git_protocol.pdf">Project Report</a></li>
+					<li class="w3">- Orignal Project Report <a href="https://github.com/SemanGit/SemanGit/blob/master/Documentation/publications/SemanGit__Adding_a_semantic_layer_to_the_Git_protocol.pdf">Project Report</a></li>
 			</div>
 			<!-- License -->
 			<div class="w3-container" id="license" style="margin-top:75px">
@@ -145,7 +144,7 @@ the <a href="http://oops.linkeddata.es/"> OOPS! OntOlogy Pitfall Scanner! </a>  
 <div class="w3-col m4 w3-margin-bottom">
 					<div class="w3-light-grey">
 						<div class="w3-container">
-							<h3>Programms/Scripts</h3>
+							<h3>Software</h3>
 							<p>Copyright (c) 2018 Matthias Böckmann, Dennis Kubitza <br>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -216,7 +215,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</p
 					<div class="w3-light-grey">
 						<div class="w3-container">
 							<h3>Anything Else</h3>
-							<p></p>
+							<p> Papers, Posters, Reports and espacially the WebVowl Interace rely on their respective licenses, provided with them and in accordance with 3rd parties. </p>
 						</div>
 					</div>
 				</div>
@@ -227,7 +226,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</p
 				<h1 class="w3-xxxlarge w3-text-green"><b>Archive</b></h1>
 				<hr style="width:50px;border:5px solid green" class="w3-round">
 				<ul class="w3-ul">
-					<li class="w3"></li>
+					<li class="w3">- We have started on setting up the file server. Soon we can provide the processed ttl-datasets as downloads (23rd Oct 2018)</li>
+					<li class="w3">- Updated license for the Dataset (23rd Oct 2018)</li>
+					<li class="w3">- Improved robustness of data generation scripts (22th Oct 2018)</li>
 				</ul>
 			</div
 
@@ -244,8 +245,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</p
 						<img src="/w3images/team2.jpg" alt="Damian Graux" style="width:100%">
 						<div class="w3-container">
 							<h3>Damian Graux</h3>
-							<p class="w3-opacity">Evil Wizzard</p>
-							<p class="w3-opacity">Expert for talking Spiders</p>
+							<p class="w3-opacity">damian.graux@iais.fraunhofer.de</p>
 							<p></p>
 						</div>
 					</div>
@@ -255,8 +255,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</p
 						<img src="/w3images/team1.jpg" alt="Matthias Boeckmann" style="width:100%">
 						<div class="w3-container">
 							<h3>Matthias Boeckmann</h3>
-							<p class="w3-opacity">Coffee Cup Minion</p>
-							<p class="w3-opacity">Tamer of Reptiles</p>
+							<p class="w3-opacity">matthias.boeckmann@iais.fraunhofer.de</p>
+
 							<p></p>
 						</div>
 					</div>
@@ -266,8 +266,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</p
 						<img src="/w3images/team3.jpg" alt="Dennis Kubitza" style="width:100%">
 						<div class="w3-container">
 							<h3>Dennis Kubitza</h3>
-							<p class="w3-opacity">Party Minion</p>
-							<p class="w3-opacity">Interpreter for Pirates</p>
+							<p class="w3-opacity">dennis.oliver.kubitza@iais.fraunhofer.de</p>
+
 							<p></p>
 						</div>
 					</div>
