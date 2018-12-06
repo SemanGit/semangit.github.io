@@ -1,0 +1,124 @@
+2018_12_06_00_19_36 --- File: /mnt/seman/Datasets-ttl/mysql-2018-11-01/mysql-2018-11-01.tar.gz already Downloaded
+2018_12_06_00_19_36 --- Starting Conversion
+Debug mode enabled.
+
+Line rejection percentage (integrity check) per table: 
+pull_request_comments: 0.0
+projects: 3.1725176774410223E-6
+pull_request_history: 0.0
+organization_members: 0.0
+issue_comments: 0.0
+repo_labels: 2.0083009975395064E-8
+watchers: 0.0
+issues: 0.0
+users: 0.0
+project_commits: 0.0
+project_topics: No data found.
+pull_requests: 0.0
+issue_labels: 0.0
+project_members: 0.0
+project_languages: 0.0
+followers: 0.0
+issue_events: 0.0
+commits: 0.0
+repo_milestones: No data found.
+pull_request_commits: 0.0
+commit_parents: 0.0
+commit_comments: 0.0
+Now printing statistics for prefix usage for further optimization.
+URI: semangit:ghlb_ -- Used Prefix: v -- Counter: 321451680
+URI: semangit:github_repo_label_name -- Used Prefix: al -- Counter: 298759991
+URI: semangit:github_project_join_event_created_at -- Used Prefix: J -- Counter: 11484189
+URI: semangit:github_user_state -- Used Prefix: aM -- Counter: 1810077
+URI: semangit:github_user_lat -- Used Prefix: aJ -- Counter: 17143812
+URI: semangit:pull_request_has_commit -- Used Prefix: V -- Counter: 42453030
+URI: semangit:github_project -- Used Prefix: M -- Counter: 104333209
+URI: semangit:github_issue_pull_request -- Used Prefix: B -- Counter: 42996059
+URI: semangit:github_project_language_is -- Used Prefix: aI -- Counter: 114540030
+URI: semangit:github_user_lng -- Used Prefix: aK -- Counter: 17143812
+URI: semangit:pull_request_base_commit -- Used Prefix: af -- Counter: 42590151
+URI: semangit:github_pull_request -- Used Prefix: ac -- Counter: 42590151
+URI: semangit:commit_repository -- Used Prefix: q -- Counter: 1144439783
+URI: semangit:github_issue_reporter -- Used Prefix: z -- Counter: 39605097
+URI: semangit:ghpr_ -- Used Prefix: D -- Counter: 265515802
+URI: semangit:github_follow_event -- Used Prefix: i -- Counter: 154453156
+URI: semangit:github_project_language_bytes -- Used Prefix: aF -- Counter: 114540030
+URI: semangit:github_issue_event -- Used Prefix: o -- Counter: 115051553
+URI: semangit:github_project_language -- Used Prefix: aE -- Counter: 114540030
+URI: semangit:github_project_joined -- Used Prefix: L -- Counter: 11484189
+URI: semangit:github_issue_event_actor -- Used Prefix: s -- Counter: 115051553
+URI: semangit:github_project_language_timestamp -- Used Prefix: aG -- Counter: 114540030
+URI: semangit:github_login -- Used Prefix: an -- Counter: 28314551
+URI: semangit:github_pull_request_id -- Used Prefix: ah -- Counter: 42590151
+URI: semangit:github_project_deleted -- Used Prefix: T -- Counter: 104333209
+URI: semangit:github_pull_request_action_type -- Used Prefix: Z -- Counter: 109801423
+URI: semangit:github_pull_request_action_pull_request -- Used Prefix: ab -- Counter: 109801423
+URI: semangit:comment_author -- Used Prefix: ay -- Counter: 161734028
+URI: semangit:ghcom_ -- Used Prefix: b -- Counter: -542366656
+URI: semangit:github_user_or_project -- Used Prefix: k -- Counter: 154458339
+URI: semangit:github_issue_event_created_at -- Used Prefix: p -- Counter: 115051553
+URI: semangit:ghuser_ -- Used Prefix: m -- Counter: -1254840295
+URI: semangit:github_follows -- Used Prefix: n -- Counter: 154459342
+URI: semangit:github_company -- Used Prefix: ap -- Counter: 1465300
+URI: semangit:github_user_location -- Used Prefix: aq -- Counter: 2653724
+URI: semangit:github_issue_assignee -- Used Prefix: A -- Counter: 5308251
+URI: semangit:comment_for -- Used Prefix: ax -- Counter: 161706081
+URI: semangit:github_has_owner -- Used Prefix: O -- Counter: 104333209
+URI: semangit:github_following_since -- Used Prefix: j -- Counter: 154469611
+URI: semangit:ghissue_ -- Used Prefix: u -- Counter: 347220749
+URI: semangit:github_issue_event_action -- Used Prefix: r -- Counter: 115051553
+URI: semangit:github_pull_request_action_created_at -- Used Prefix: X -- Counter: 109801423
+URI: semangit:commit_has_parent -- Used Prefix: c -- Counter: 1070192533
+URI: semangit:github_pull_request_actor -- Used Prefix: aa -- Counter: 109438629
+URI: semangit:comment_created_at -- Used Prefix: aC -- Counter: 161711596
+URI: semangit:github_issue_event_for -- Used Prefix: t -- Counter: 115051553
+URI: semangit:github_commit -- Used Prefix: d -- Counter: 1144648674
+URI: semangit:comment -- Used Prefix: aD -- Counter: 161735879
+URI: semangit:programming_language -- Used Prefix: aO -- Counter: 369
+URI: semangit:github_user -- Used Prefix: am -- Counter: 28314551
+URI: semangit:github_forked_from -- Used Prefix: S -- Counter: 39128807
+URI: semangit:ghrepo_ -- Used Prefix:  -- Counter: -808045439
+URI: semangit:github_issue_label_used_by -- Used Prefix: w -- Counter: 22792061
+URI: semangit:github_organization_is_joined -- Used Prefix: H -- Counter: 667034
+URI: semangit:github_issue_created_at -- Used Prefix: C -- Counter: 81556760
+URI: semangit:github_project_name -- Used Prefix: P -- Counter: 104333209
+URI: semangit:pull_request_head_commit -- Used Prefix: ag -- Counter: 42334071
+URI: semangit:github_repo_label -- Used Prefix: aj -- Counter: 298759991
+URI: semangit:commit_created_at -- Used Prefix: h -- Counter: 1144648674
+URI: semangit:comment_body -- Used Prefix: az -- Counter: 33591544
+URI: semangit:comment_pos -- Used Prefix: aB -- Counter: 30878126
+URI: semangit:github_organization_joined_at -- Used Prefix: F -- Counter: 667034
+URI: semangit:github_issue -- Used Prefix: x -- Counter: 81556760
+URI: semangit:github_project_language_repo -- Used Prefix: aH -- Counter: 114540030
+URI: semangit:github_repo_label_project -- Used Prefix: ak -- Counter: 298759991
+URI: semangit:pull_request_base_project -- Used Prefix: ad -- Counter: 42590151
+URI: semangit:github_user_is_org -- Used Prefix: at -- Counter: 28314551
+URI: semangit:repository_created_at -- Used Prefix: U -- Counter: 104333209
+URI: semangit:commit_author -- Used Prefix: f -- Counter: 1144648674
+URI: semangit:github_user_fake -- Used Prefix: av -- Counter: 28314551
+URI: semangit:comment_line -- Used Prefix: aA -- Counter: 2411620
+URI: semangit:github_follower -- Used Prefix: l -- Counter: 154472964
+URI: semangit:github_user_deleted -- Used Prefix: au -- Counter: 28314551
+URI: semangit:repository_language -- Used Prefix: R -- Counter: 51994171
+URI: semangit:github_issue_event_action_specific_sha -- Used Prefix: cd -- Counter: 11533504
+URI: semangit:ghcomment_commit_ -- Used Prefix: aw -- Counter: 5226152
+URI: semangit:ghlang_ -- Used Prefix: aD -- Counter: 114540399
+URI: semangit:github_project_joining_user -- Used Prefix: K -- Counter: 11484189
+URI: semangit:github_pull_request_action -- Used Prefix: W -- Counter: 109801423
+URI: semangit:github_user_created_at -- Used Prefix: as -- Counter: 28314551
+URI: semangit:github_project_join_event -- Used Prefix: I -- Counter: 11484189
+URI: semangit:repository_url -- Used Prefix: N -- Counter: 104333209
+URI: semangit:commit_sha -- Used Prefix: e -- Counter: 1144648674
+URI: semangit:commit_committed_by -- Used Prefix: g -- Counter: 1144648674
+URI: semangit:repository_has_commit -- Used Prefix: a -- Counter: 81338769
+URI: semangit:github_pull_request_intra_branch -- Used Prefix: ai -- Counter: 42590151
+URI: semangit:github_organization_join_event -- Used Prefix: E -- Counter: 667034
+URI: semangit:pull_request_head_project -- Used Prefix: ae -- Counter: 42365388
+URI: semangit:github_user_city -- Used Prefix: aN -- Counter: 1685717
+URI: semangit:github_organization_joined_by -- Used Prefix: G -- Counter: 667034
+URI: semangit:github_project_description -- Used Prefix: Q -- Counter: 94822397
+URI: semangit:github_pull_request_action_id -- Used Prefix: Y -- Counter: 109801423
+URI: semangit:github_issue_project -- Used Prefix: y -- Counter: 81556760
+URI: semangit:programming_language_name -- Used Prefix: aP -- Counter: 369
+URI: semangit:github_user_country_code -- Used Prefix: aL -- Counter: 2393176
+2018_12_06_09_49_57 --- Translation sucseeded. Removing .csv and unused .ttl .
