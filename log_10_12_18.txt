@@ -1,0 +1,126 @@
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/106/lib/idea_rt.jar=35829:/snap/intellij-idea-community/106/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/home/matthias/IdeaProjects/semangit_converter/out/production/classes:/home/matthias/IdeaProjects/semangit_converter/out/production/resources:/home/matthias/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/4.2/a65fb7d2ee2b5ea64b7887ed6dbce3d1fbef990e/opencsv-4.2.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.11/f6b34997d04c1538ce451d3955298f46fdb4dbd4/groovy-all-2.3.11.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.datastax.cassandra/cassandra-driver-core/3.6.0/1d689ae757862f7c497dd6b186793d1bf921fd28/cassandra-driver-core-3.6.0.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/c947004bb13d18182be60077ade044099e4f26f1/guava-23.0.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.25/110cefe2df103412849d72ef7a67e4e91e4266b4/slf4j-log4j12-1.7.25.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.3/9abf61708a66ab5e55f6169a200dbfc584b546d9/commons-text-1.3.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.3/c845703de334ddc6b4b3cd26835458cb1cba1f3d/commons-beanutils-1.9.3.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.1/a4cf4688fe1c7e3a63aa636cc96d013af537768e/commons-collections4-4.1.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.0.18/5f65affce1684999e2f4024983835efc3504012e/error_prone_annotations-2.0.18.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.2.2/cd9886f498ee2ab2d994f0c779e5553b2c450416/metrics-core-3.2.2.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.56.Final/bf3ee7d214897d3968c1d29a28ee6d5f964876ae/netty-handler-4.0.56.Final.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.44/1f8e4551454e613c04f6d4045ed9d5b98e21980f/jnr-posix-3.0.44.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.7/31a7391a212069303935a1df29566b7372d3ef9f/jnr-ffi-2.1.7.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.56.Final/bd9ecf1cf3721bbedfd2fb0c52d4f56803ff270d/netty-codec-4.0.56.Final.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.56.Final/535223be500f76fd02b271e4c15c8678d10830ab/netty-transport-4.0.56.Final.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.56.Final/b39eb8a9e5c99a31773fe7fc93523fd379d7a71/netty-buffer-4.0.56.Final.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.16/5c1149dfcc9a16f85c8d9b8797f03806667cb9f1/jffi-1.2.16.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.16/3c1f0edf2df2c6e0419d60d0baa59659211624cb/jffi-1.2.16-native.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/a7111830132c7f87d08fe48cb0ca07630f8cb91c/asm-commons-5.0.3.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6936bbd6c5b235665d87bd450f5e13b52d4b48/jnr-x86asm-1.0.2.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.9/33f23994e09aeb49880aa01e12e8e9eff058c14c/jnr-constants-0.9.9.jar:/home/matthias/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.56.Final/b0cd4003e71c5b1b43344bf58050f2133f27bac9/netty-common-4.0.56.Final.jar de.semangit.Converter /mnt/dennisseman/Datasets/Nov18/mysql-2018-11-01/ -debug
+Debug mode enabled.
+
+Line rejection percentage (integrity check) per table: 
+pull_request_comments: 0.0
+projects: 3.1725176774410223E-6
+pull_request_history: 0.0
+organization_members: 0.0
+issue_comments: 0.0
+repo_labels: 2.0083009975395064E-8
+watchers: 0.0
+issues: 0.0
+users: 0.0
+project_commits: 0.0
+project_topics: No data found.
+pull_requests: 0.0
+issue_labels: 0.0
+project_members: 0.0
+project_languages: 0.0
+followers: 0.0
+issue_events: 0.0
+commits: 0.0
+repo_milestones: No data found.
+pull_request_commits: 0.0
+commit_parents: 0.0
+commit_comments: 0.0
+Now printing statistics for prefix usage for further optimization.
+URI: semangit:github_repo_label_name -- Used Prefix: al -- Counter: 298759991
+URI: semangit:github_project_join_event_created_at -- Used Prefix: J -- Counter: 11484189
+URI: semangit:github_user_state -- Used Prefix: aM -- Counter: 1810077
+URI: semangit:pull_request_has_commit -- Used Prefix: V -- Counter: 215808092
+URI: semangit:github_project -- Used Prefix: M -- Counter: 104333209
+URI: semangit:github_user_lng -- Used Prefix: aK -- Counter: 17143812
+URI: semangit:github_project_language_is -- Used Prefix: aI -- Counter: 114540030
+URI: semangit:pull_request_base_commit -- Used Prefix: af -- Counter: 42590151
+URI: semangit:commit_repository -- Used Prefix: q -- Counter: 1144439783
+URI: semangit:github_follow_event -- Used Prefix: i -- Counter: 154390338
+URI: semangit:github_project_joined -- Used Prefix: L -- Counter: 11484188
+URI: semangit:github_project_language_timestamp -- Used Prefix: aG -- Counter: 114540030
+URI: semangit:ghcom_ -- Used Prefix: b -- Counter: 9503770194
+URI: semangit:github_user_or_project -- Used Prefix: k -- Counter: 154347908
+URI: semangit:ghuser_ -- Used Prefix: m -- Counter: 3026876265
+URI: semangit:github_follows -- Used Prefix: n -- Counter: 154410344
+URI: semangit:github_user_location -- Used Prefix: aq -- Counter: 2653724
+URI: semangit:github_issue_assignee -- Used Prefix: A -- Counter: 5308251
+URI: semangit:comment_for -- Used Prefix: ax -- Counter: 189596913
+URI: semangit:github_has_owner -- Used Prefix: O -- Counter: 104333209
+URI: semangit:github_following_since -- Used Prefix: j -- Counter: 154452826
+URI: semangit:github_issue_event_action -- Used Prefix: r -- Counter: 115051553
+URI: semangit:commit_has_parent -- Used Prefix: c -- Counter: 1143826263
+URI: semangit:github_pull_request_actor -- Used Prefix: aa -- Counter: 109438629
+URI: semangit:github_issue_event_for -- Used Prefix: t -- Counter: 115051553
+URI: semangit:github_commit -- Used Prefix: d -- Counter: 1144648674
+URI: semangit:github_user -- Used Prefix: am -- Counter: 28314551
+URI: semangit:ghrepo_ -- Used Prefix:  -- Counter: 7741798227
+URI: semangit:github_issue_created_at -- Used Prefix: C -- Counter: 81556760
+URI: semangit:comment_body -- Used Prefix: az -- Counter: 33585955
+URI: semangit:comment_pos -- Used Prefix: aB -- Counter: 30875425
+URI: semangit:github_issue -- Used Prefix: x -- Counter: 81556760
+URI: semangit:github_project_language_repo -- Used Prefix: aH -- Counter: 114540030
+URI: semangit:github_repo_label_project -- Used Prefix: ak -- Counter: 298759991
+URI: semangit:github_user_is_org -- Used Prefix: at -- Counter: 28314551
+URI: semangit:commit_author -- Used Prefix: f -- Counter: 1144648674
+URI: semangit:github_user_fake -- Used Prefix: av -- Counter: 28314551
+URI: semangit:github_follower -- Used Prefix: l -- Counter: 154448965
+URI: semangit:ghcomment_commit_ -- Used Prefix: aw -- Counter: 5226152
+URI: semangit:github_project_joining_user -- Used Prefix: K -- Counter: 11484189
+URI: semangit:ghlang_ -- Used Prefix: aD -- Counter: 114540399
+URI: semangit:repository_has_commit -- Used Prefix: a -- Counter: 5864325601
+URI: semangit:github_organization_join_event -- Used Prefix: E -- Counter: 667034
+URI: semangit:pull_request_head_project -- Used Prefix: ae -- Counter: 42365388
+URI: semangit:github_user_city -- Used Prefix: aN -- Counter: 1685717
+URI: semangit:github_project_description -- Used Prefix: Q -- Counter: 94822397
+URI: semangit:github_pull_request_action_id -- Used Prefix: Y -- Counter: 109801423
+URI: semangit:programming_language_name -- Used Prefix: aP -- Counter: 369
+URI: semangit:ghlb_ -- Used Prefix: v -- Counter: 321891804
+URI: semangit:github_user_lat -- Used Prefix: aJ -- Counter: 17143812
+URI: semangit:github_issue_pull_request -- Used Prefix: B -- Counter: 42996059
+URI: semangit:github_pull_request -- Used Prefix: ac -- Counter: 42590151
+URI: semangit:github_issue_reporter -- Used Prefix: z -- Counter: 39605097
+URI: semangit:ghpr_ -- Used Prefix: D -- Counter: 264501984
+URI: semangit:github_project_language_bytes -- Used Prefix: aF -- Counter: 114540030
+URI: semangit:github_issue_event -- Used Prefix: o -- Counter: 115051553
+URI: semangit:github_project_language -- Used Prefix: aE -- Counter: 114540030
+URI: semangit:github_issue_event_actor -- Used Prefix: s -- Counter: 115051553
+URI: semangit:github_login -- Used Prefix: an -- Counter: 28314551
+URI: semangit:github_pull_request_id -- Used Prefix: ah -- Counter: 42590151
+URI: semangit:github_project_deleted -- Used Prefix: T -- Counter: 104333209
+URI: semangit:github_pull_request_action_type -- Used Prefix: Z -- Counter: 109801423
+URI: semangit:github_pull_request_action_pull_request -- Used Prefix: ab -- Counter: 109801423
+URI: semangit:comment_author -- Used Prefix: ay -- Counter: 161661924
+URI: semangit:github_issue_event_created_at -- Used Prefix: p -- Counter: 115051553
+URI: semangit:github_company -- Used Prefix: ap -- Counter: 1465300
+URI: semangit:ghissue_ -- Used Prefix: u -- Counter: 345932776
+URI: semangit:github_pull_request_action_created_at -- Used Prefix: X -- Counter: 109801423
+URI: semangit:comment_created_at -- Used Prefix: aC -- Counter: 161534284
+URI: semangit:comment -- Used Prefix: aD -- Counter: 161619014
+URI: semangit:programming_language -- Used Prefix: aO -- Counter: 369
+URI: semangit:github_forked_from -- Used Prefix: S -- Counter: 39128807
+URI: semangit:github_issue_label_used_by -- Used Prefix: w -- Counter: 23352041
+URI: semangit:github_organization_is_joined -- Used Prefix: H -- Counter: 667034
+URI: semangit:github_project_name -- Used Prefix: P -- Counter: 104333209
+URI: semangit:pull_request_head_commit -- Used Prefix: ag -- Counter: 42334071
+URI: semangit:github_repo_label -- Used Prefix: aj -- Counter: 298759991
+URI: semangit:commit_created_at -- Used Prefix: h -- Counter: 1144648674
+URI: semangit:github_organization_joined_at -- Used Prefix: F -- Counter: 667034
+URI: semangit:pull_request_base_project -- Used Prefix: ad -- Counter: 42590151
+URI: semangit:repository_created_at -- Used Prefix: U -- Counter: 104333209
+URI: semangit:comment_line -- Used Prefix: aA -- Counter: 2411620
+URI: semangit:github_user_deleted -- Used Prefix: au -- Counter: 28314551
+URI: semangit:repository_language -- Used Prefix: R -- Counter: 51994171
+URI: semangit:github_issue_event_action_specific_sha -- Used Prefix: cd -- Counter: 11533504
+URI: semangit:github_user_created_at -- Used Prefix: as -- Counter: 28314551
+URI: semangit:github_pull_request_action -- Used Prefix: W -- Counter: 109801423
+URI: semangit:github_project_join_event -- Used Prefix: I -- Counter: 11484189
+URI: semangit:repository_url -- Used Prefix: N -- Counter: 104333209
+URI: semangit:commit_sha -- Used Prefix: e -- Counter: 1144648674
+URI: semangit:commit_committed_by -- Used Prefix: g -- Counter: 1144648674
+URI: semangit:github_pull_request_intra_branch -- Used Prefix: ai -- Counter: 42590151
+URI: semangit:github_organization_joined_by -- Used Prefix: G -- Counter: 667034
+URI: semangit:github_issue_project -- Used Prefix: y -- Counter: 81556760
+URI: semangit:github_user_country_code -- Used Prefix: aL -- Counter: 2393176
+Num triples: -2088008524
+Time taken: 11799s
+
+Process finished with exit code 0
